@@ -1,5 +1,5 @@
 h1 {
-	color: #FF0000;
+	color: #52206E;
 }
 
 li {
@@ -8,4 +8,18 @@ li {
 
 h4 {
 	color: #FF1493;
+}
+
+/*RGBA has alpha which makes colors transparent*/
+
+h1 {
+	color: rgba(11, 99, 150, 1);
+}
+
+li {
+	color: rgba(11, 99, 150, .6);
+}
+
+h4 {
+	color: rgba(11, 99, 150, .2);
 }
