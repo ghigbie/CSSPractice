@@ -23,3 +23,15 @@ li {
 h4 {
 	color: rgba(11, 99, 150, .2);
 }
+
+body{
+	background: #95a5a6;
+}
+
+div{
+	background: #3498db
+}
+
+p{
+	color: #ecf0f1;
+}
