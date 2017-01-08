@@ -8,6 +8,8 @@ li {
 
 h4 {
 	color: #FF1493;
+/*	background: rgb(255, 100, 80);*/
+
 }
 
 /*RGBA has alpha which makes colors transparent*/
@@ -22,10 +24,11 @@ li {
 
 h4 {
 	color: rgba(11, 99, 150, .2);
+	background: rgb(255, 100, 80);
 }
 
 body{
-	background: #95a5a6;
+	background: pink;
 }
 
 div{
@@ -34,4 +37,12 @@ div{
 
 p{
 	color: #ecf0f1;
+}
+
+/*we can also use an image to change the background*/
+
+body{
+	background: url(http://wallpapercave.com/wp/Tb3g7Fv.jpg);
+	background-repeat: no-repeat; /*This sets the image not to repeat*/
+	background-size: cover; /*This sets it to cover the page*/
 }
