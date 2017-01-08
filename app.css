@@ -14,8 +14,14 @@ h4 {
 
 /*RGBA has alpha which makes colors transparent*/
 
+/*borders have  width, color and style  all three must be set!*/
 h1 {
-	color: rgba(11, 99, 150, 1);
+/*	color: rgba(11, 99, 150, 1);
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 8px dashed purple; /*don't use commas to separate*/
 }
 
 li {
@@ -42,7 +48,8 @@ p{
 /*we can also use an image to change the background*/
 
 body{
-	background: url(http://wallpapercave.com/wp/Tb3g7Fv.jpg);
-	background-repeat: no-repeat; /*This sets the image not to repeat*/
-	background-size: cover; /*This sets it to cover the page*/
+/*	background: url(http://wallpapercave.com/wp/Tb3g7Fv.jpg);
+	background-repeat: no-repeat; This sets the image not to repeat
+	background-size: cover; /*This sets it to cover the page*/*/
 }
+
